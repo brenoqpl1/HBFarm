@@ -37,6 +37,8 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-      - name: Deploy to GitHub Pages
+      - name: FTP Deploy Locaweb
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: locaweb/ftp-deploy@1.0.0
+
+
